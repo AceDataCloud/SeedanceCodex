@@ -1,0 +1,23 @@
+{
+  "service": "Seedance",
+  "repo": "SeedanceCodex",
+  "slug": "seedance",
+  "mcp": "seedance",
+  "purpose": "text-to-video and image-to-video generation",
+  "zh": "文生视频与图生视频",
+  "query": "seedance_get_task",
+  "info": "seedance_list_models",
+  "tools": [
+    "seedance_list_models",
+    "seedance_list_resolutions",
+    "seedance_list_actions",
+    "seedance_generate_video",
+    "seedance_generate_video_from_image",
+    "seedance_get_task",
+    "seedance_get_tasks_batch"
+  ],
+  "api": "/seedance/videos",
+  "task_api": "/seedance/tasks",
+  "icon_repo": "SeedanceCursor",
+  "icon": "assets/logo.png"
+}

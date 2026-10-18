@@ -1,0 +1,20 @@
+{
+  "name": "acedatacloud-seedance",
+  "interface": {
+    "displayName": "Seedance by Ace Data Cloud"
+  },
+  "plugins": [
+    {
+      "name": "seedance",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
