@@ -21,7 +21,7 @@ codex plugin add seedance@acedatacloud-seedance --json
 
 ## 2. 获取与配置 API Token
 
-1. [登录 Ace → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=seedancecodex_readme_api_key_zh)；没有 General application 时先初始化。
+1. [登录 Ace → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=seedancecodex_readme_api_key_zh)，打开**通用应用**。
 2. 打开 **General application**，确认当前服务权限、价格和余额。复制 API Key，或 **Manage Keys → Create** 创建名为 `Codex Seedance` 的独立凭据。
 
 ![真实平台截图：复制 Key 或 Manage Keys](../assets/get-api-key-en.png)
