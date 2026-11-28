@@ -19,7 +19,7 @@ This pins the published `v0.1.1` release. It is a third-party marketplace, not t
 
 ## 2. Get a service API key
 
-1. [Register or sign in to Ace Data Cloud](https://platform.acedata.cloud/?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedancecodex_readme_register). Open [Applications](https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedancecodex_readme_api_key). If absent, choose **Initialize General Application**.
+1. [Register or sign in to Ace Data Cloud](https://platform.acedata.cloud/?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedancecodex_readme_register). Open [Applications](https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedancecodex_readme_api_key). Open **General Application**.
 2. Open **General application**, check Seedance access, balance and [current price](https://platform.acedata.cloud/models?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedancecodex_readme_pricing). Copy its API Key, or choose **Manage Keys → Create** for a separate `Codex Seedance` key. A dedicated service key only grants that service.
 
 ![Redacted Applications key location](assets/get-api-key-en.png)
