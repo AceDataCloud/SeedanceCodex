@@ -1,4 +1,4 @@
-# Seedance by Ace Data Cloud for Codex
+# Seedance for Codex
 
 Text-to-video and image-to-video generation in Codex, provided by **Ace Data Cloud**. This independent plugin reuses the [existing Seedance MCP](https://github.com/AceDataCloud/MCPs/tree/main/seedance); it does not duplicate the server or change its billing. It is not published or endorsed by the service brand or by OpenAI.
 
@@ -6,16 +6,16 @@ Text-to-video and image-to-video generation in Codex, provided by **Ace Data Clo
 
 ## 1. Install the correct native plugin
 
-The target is the Codex official plugin directory with the name **Seedance by Ace Data Cloud**. **Official listing is not live.** The [official catalog](https://github.com/openai/plugins) submission and review are separate from this source package. Do not expect the default official search to find this integration until it is accepted.
+The target is the Codex official plugin directory with the name **Seedance**. **Official listing is not live.** The [official catalog](https://github.com/openai/plugins) submission and review are separate from this source package. Do not expect the default official search to find this integration until it is accepted.
 
 For the released third-party installation, add this service's marketplace using Codex 0.163.0 or later:
 
 ```bash
-codex plugin marketplace add AceDataCloud/SeedanceCodex --ref v0.1.0
+codex plugin marketplace add AceDataCloud/SeedanceCodex --ref v0.1.1
 codex plugin add seedance@acedatacloud-seedance --json
 ```
 
-This pins the published `v0.1.0` release. It is a third-party marketplace, not the official default catalog. Inspect the source and release before installing. In Codex's plugin interface, search **Seedance** within that added marketplace and check the publisher is **Ace Data Cloud**. The CLI `plugin list --available --marketplace acedatacloud-seedance --json` exposes the same plugin metadata. Adding a marketplace alone does not install its plugin; adding this plugin installs only Seedance.
+This pins the published `v0.1.1` release. It is a third-party marketplace, not the official default catalog. Inspect the source and release before installing. In Codex's plugin interface, search **Seedance** within that added marketplace and check the publisher is **Ace Data Cloud**. The CLI `plugin list --available --marketplace acedatacloud-seedance --json` exposes the same plugin metadata. Adding a marketplace alone does not install its plugin; adding this plugin installs only Seedance.
 
 ## 2. Get a service API key
 

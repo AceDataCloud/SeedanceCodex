@@ -1,6 +1,6 @@
 {
   "name": "seedance",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use Seedance for text-to-video and image-to-video generation through Ace Data Cloud. Install this independent Codex plugin, use your own API key, and retrieve the same task until it finishes.",
   "author": {
     "name": "Ace Data Cloud",
@@ -20,7 +20,7 @@
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "Seedance by Ace Data Cloud",
+    "displayName": "Seedance",
     "shortDescription": "Seedance tools with your Ace API key",
     "longDescription": "Use Seedance for text-to-video and image-to-video generation through Ace Data Cloud. Install this independent Codex plugin, use your own API key, and retrieve the same task until it finishes. This integration is provided by Ace Data Cloud and is not an official plugin from the service brand. Media API calls may incur charges.",
     "developerName": "Ace Data Cloud",

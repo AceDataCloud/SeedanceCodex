@@ -3,7 +3,7 @@ name: seedance
 description: Use Seedance through Ace Data Cloud for text-to-video and image-to-video generation, or retrieve an existing Seedance task. This is an independent service plugin, not a general chat model provider.
 ---
 
-# Seedance by Ace Data Cloud
+# Seedance
 
 Use the plugin's `seedance` MCP tools. Do not fall back to another provider/model or silently submit a second request.
 
