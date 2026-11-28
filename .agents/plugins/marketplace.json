@@ -1,7 +1,7 @@
 {
   "name": "acedatacloud-seedance",
   "interface": {
-    "displayName": "Seedance by Ace Data Cloud"
+    "displayName": "Seedance"
   },
   "plugins": [
     {

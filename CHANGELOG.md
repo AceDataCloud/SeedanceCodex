@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Use Seedance as the plugin and standalone catalog display name.
+
 ## 0.1.0 — 2026-10-19
 
 - Independent native Codex plugin with service-first Ace Data Cloud publisher identity.
